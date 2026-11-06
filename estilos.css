@@ -1,0 +1,40 @@
+body {
+background-color: #1a1a1a;
+color: white;
+font-family: Arial, sans-serif;
+}
+h1 {
+color: #e60012;
+font-family: Impact, sans-serif;
+text-align: center;
+}
+h2 {
+color: #e60012;
+font-family: Impact, sans-serif;
+}
+div {
+background-color: #2b2b2b;
+padding: 15px;
+margin: 20px;
+}
+li div {
+padding: 5px;
+margin: 5px;
+}
+.destaque {
+background-color: #e60012;
+color: white;
+padding: 10px;
+margin: 20px;
+}
+img {
+width: 400px;
+}
+a {
+color: #e60012;
+}
+/*
+1. Desafio Técnico: A regra que me deu mais trabalho foi a da classe .destaque. Escrevi a regra no CSS mas o parágrafo continuava igual. Abri o F12 no Chrome e reparei que o parágrafo não tinha classe nenhuma, porque no HTML eu tinha escrito class="Destaque" com letra maiúscula e no CSS estava .destaque. Mudei para minúsculas, fiz F5 e o fundo vermelho apareceu.
+2. Correção de Sintaxe: O erro que fiz mais vezes foi esquecer o fponto e vírgula no fim das propriedades. Por exemplo, no h1 escrevi a cor sem o ; e a linha seguinte, o font-family, deixou de funcionar. Demorei a perceber porque não aparecia erro nenhum, a página simplesmente ignorava a regra. Depois disso comecei a verificar o fim de cada linha antes de guardar.
+3. Autoria: O src serve para dizer ao browser onde está a imagem que quero mostrar. É como dar uma morada: se a morada estiver certa, o browser vai lá buscar a imagem e mostra-a na página, mas se o nome do ficheiro estiver mal escrito ou a imagem estiver noutra pasta, ele não a encontra e aparece só o texto do alt.
+*/
